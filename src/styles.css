@@ -1,0 +1,107 @@
+.abrir-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+ 
+.animacion {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+}
+ 
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+ 
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+ 
+    to {
+        opacity: 1
+    }
+}
+ 
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+ 
+    to {
+        opacity: 1
+    }
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/assets/cookiesback.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Auth-form {
+    width: 420px;
+    box-shadow: 0 0 10px rgba(89, 53, 45, 0.5);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: monospace;
+  }
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+  }
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #59352d;
+    font-weight: 800;
+    font-family: monospace;
+  }
+  inpu {
+    font-size: 14px;
+    font-weight: 600;
+    color: #59352d;
+    font-family: monospace;
+  }
+  .btn-btn-login{
+    background-color: #e9afc9;
+    color: #59352d;
+    border-color: #59352d;
+    border-radius: 10px;
+  }
+
+  .btn-btn-actualizar{
+    background-color: #e882b0;
+    color: #59352d;
+    border-color: #71443a;
+    border-radius: 10px;
+  }
+  .btn-btn-eliminar{
+    background-color: #f1b1ce;
+    color: #69514c;
+    border-color: #896d67;
+    border-radius: 10px;
+  }
